@@ -1,0 +1,182 @@
+remark input file: k13a2.upln                                        
+remark output file: k13a2.tbl                                         
+set echo=false end
+set wrnlev=0 end
+
+
+
+! range |i-j| =     0
+assign (resid   2 and name HN    )(resid   2 and name HA    )  3.33  1.43  0.00
+assign (resid   2 and name HN    )(resid   2 and name HB1   )  3.50  1.40  0.00
+assign (resid   2 and name HN    )(resid   2 and name HB2   )  3.50  1.40  0.00
+assign (resid   2 and name HA    )(resid   2 and name HB1   )  3.24  1.34  0.00
+assign (resid   2 and name HA    )(resid   2 and name HB2   )  3.24  1.34  0.00
+assign (resid   2 and name HB1   )(resid   2 and name HB2   )  2.40  0.50  0.00
+assign (resid   3 and name HN    )(resid   3 and name HA    )  2.77  0.87  0.00
+assign (resid   3 and name HN    )(resid   3 and name HB1   )  3.45  1.55  0.00
+assign (resid   3 and name HN    )(resid   3 and name HB2   )  3.08  1.18  0.00
+assign (resid   3 and name HN    )(resid   3 and name HG*   )  5.42  3.52  0.00
+assign (resid   3 and name HA    )(resid   3 and name HB1   )  2.77  0.87  0.00
+assign (resid   3 and name HA    )(resid   3 and name HB2   )  3.17  1.27  0.00
+assign (resid   3 and name HA    )(resid   3 and name HG*   )  6.28  4.38  0.00
+assign (resid   3 and name HE21  )(resid   3 and name HE22  )  2.71  0.81  0.00
+assign (resid   4 and name HN    )(resid   4 and name HB1   )  3.64  1.74  0.00
+assign (resid   4 and name HN    )(resid   4 and name HB2   )  3.27  1.37  0.00
+assign (resid   4 and name HA    )(resid   4 and name HB1   )  2.96  1.06  0.00
+assign (resid   4 and name HA    )(resid   4 and name HB2   )  3.02  1.12  0.00
+assign (resid   4 and name HB1   )(resid   4 and name HB2   )  2.40  0.50  0.00
+assign (resid   5 and name HN    )(resid   5 and name HA1   )  2.99  1.09  0.00
+assign (resid   5 and name HN    )(resid   5 and name HA2   )  2.68  0.78  0.00
+assign (resid   6 and name HN    )(resid   6 and name HA    )  3.67  1.77  0.00
+assign (resid   6 and name HN    )(resid   6 and name HB1   )  4.07  2.17  0.00
+assign (resid   6 and name HN    )(resid   6 and name HB2   )  3.36  1.46  0.00
+assign (resid   6 and name HA    )(resid   6 and name HB1   )  2.86  0.96  0.00
+assign (resid   6 and name HA    )(resid   6 and name HB2   )  2.71  0.81  0.00
+assign (resid   6 and name HB1   )(resid   6 and name HB2   )  2.40  0.50  0.00
+assign (resid   7 and name HN    )(resid   7 and name HA1   )  3.11  1.21  0.00
+assign (resid   7 and name HN    )(resid   7 and name HA2   )  2.80  0.90  0.00
+assign (resid   7 and name HA1   )(resid   7 and name HA2   )  2.40  0.50  0.00
+assign (resid   8 and name HN    )(resid   8 and name HB1   )  3.52  1.62  0.00
+assign (resid   8 and name HN    )(resid   8 and name HB2   )  3.17  1.27  0.00
+assign (resid   8 and name HN    )(resid   8 and name HD*   )  7.64  5.74  0.00
+assign (resid   8 and name HB1   )(resid   8 and name HB2   )  2.40  0.50  0.00
+assign (resid   8 and name HB1   )(resid   8 and name HD*   )  5.59  3.69  0.00
+assign (resid   8 and name HB2   )(resid   8 and name HD*   )  5.47  3.57  0.00
+assign (resid   8 and name HD*   )(resid   8 and name HE*   )  7.48  5.58  0.00
+assign (resid   9 and name HN    )(resid   9 and name HA    )  3.61  1.71  0.00
+assign (resid   9 and name HN    )(resid   9 and name HB    )  3.59  1.12  0.00
+assign (resid   9 and name HN    )(resid   9 and name HG2*  )  6.53  4.63  0.00
+assign (resid   9 and name HN    )(resid   9 and name HG11  )  4.17  2.27  0.00
+assign (resid   9 and name HN    )(resid   9 and name HG12  )  5.50  3.60  0.00
+assign (resid   9 and name HN    )(resid   9 and name HD*   )  6.53  4.63  0.00
+assign (resid   9 and name HA    )(resid   9 and name HB    )  3.30  1.40  0.00
+assign (resid   9 and name HA    )(resid   9 and name HG2*  )  4.02  2.12  0.00
+assign (resid   9 and name HA    )(resid   9 and name HG11  )  4.01  2.11  0.00
+assign (resid   9 and name HA    )(resid   9 and name HG12  )  3.33  1.43  0.00
+assign (resid   9 and name HB    )(resid   9 and name HG11  )  3.02  1.12  0.00
+assign (resid   9 and name HB    )(resid   9 and name HG12  )  3.89  1.99  0.00
+assign (resid   9 and name HB    )(resid   9 and name HD*   )  3.74  1.84  0.00
+assign (resid   9 and name HG2*  )(resid   9 and name HG11  )  3.77  1.87  0.00
+assign (resid   9 and name HG11  )(resid   9 and name HG12  )  2.40  0.50  0.00
+assign (resid  10 and name HN    )(resid  10 and name HA    )  3.58  1.68  0.00
+assign (resid  10 and name HN    )(resid  10 and name HB1   )  3.68  1.21  0.00
+assign (resid  10 and name HN    )(resid  10 and name HB2   )  3.42  1.52  0.00
+assign (resid  10 and name HA    )(resid  10 and name HB1   )  2.90  1.00  0.00
+assign (resid  10 and name HA    )(resid  10 and name HB2   )  3.08  1.18  0.00
+assign (resid  10 and name HB1   )(resid  10 and name HB2   )  2.40  0.50  0.00
+assign (resid  11 and name HN    )(resid  11 and name HA    )  3.17  1.27  0.00
+assign (resid  11 and name HN    )(resid  11 and name HB*   )  4.02  2.12  0.00
+assign (resid  11 and name HA    )(resid  11 and name HB*   )  3.49  1.59  0.00
+assign (resid  12 and name HN    )(resid  12 and name HA    )  2.93  1.03  0.00
+assign (resid  12 and name HN    )(resid  12 and name HB*   )  3.99  2.09  0.00
+assign (resid  12 and name HA    )(resid  12 and name HB*   )  3.77  1.87  0.00
+assign (resid  13 and name HN    )(resid  13 and name HA    )  3.30  1.40  0.00
+assign (resid  13 and name HN    )(resid  13 and name HB1   )  3.27  1.37  0.00
+assign (resid  13 and name HN    )(resid  13 and name HB2   )  3.55  1.65  0.00
+assign (resid  13 and name HN    )(resid  13 and name HG1   )  3.39  1.49  0.00
+assign (resid  13 and name HN    )(resid  13 and name HG2   )  3.48  1.58  0.00
+assign (resid  13 and name HA    )(resid  13 and name HB1   )  2.99  1.09  0.00
+assign (resid  13 and name HA    )(resid  13 and name HB2   )  2.74  0.84  0.00
+assign (resid  13 and name HA    )(resid  13 and name HG1   )  3.90  1.40  0.00
+assign (resid  13 and name HA    )(resid  13 and name HG2   )  3.90  1.15  0.00
+assign (resid  13 and name HB1   )(resid  13 and name HB2   )  2.40  0.50  0.00
+assign (resid  13 and name HB1   )(resid  13 and name HG1   )  2.74  0.84  0.00
+assign (resid  13 and name HB2   )(resid  13 and name HG1   )  3.14  1.24  0.00
+assign (resid  13 and name HB2   )(resid  13 and name HG2   )  2.40  0.50  0.00
+assign (resid  13 and name HG1   )(resid  13 and name HG2   )  2.40  0.50  0.00
+assign (resid  14 and name HN    )(resid  14 and name HA    )  3.21  1.31  0.00
+assign (resid  14 and name HN    )(resid  14 and name HB*   )  3.92  2.02  0.00
+assign (resid  14 and name HA    )(resid  14 and name HB*   )  3.61  1.71  0.00
+assign (resid  15 and name HN    )(resid  15 and name HA    )  3.21  1.31  0.00
+assign (resid  15 and name HN    )(resid  15 and name HB*   )  3.80  1.90  0.00
+assign (resid  15 and name HA    )(resid  15 and name HB*   )  3.77  1.87  0.00
+assign (resid  16 and name HN    )(resid  16 and name HA    )  3.58  1.68  0.00
+assign (resid  16 and name HN    )(resid  16 and name HB1   )  4.20  2.30  0.00
+assign (resid  16 and name HN    )(resid  16 and name HB2   )  3.36  1.46  0.00
+assign (resid  16 and name HA    )(resid  16 and name HB1   )  3.33  1.43  0.00
+assign (resid  16 and name HA    )(resid  16 and name HB2   )  4.85  2.95  0.00
+assign (resid  16 and name HA    )(resid  16 and name HG1   )  5.50  3.60  0.00
+assign (resid  16 and name HA    )(resid  16 and name HG2   )  5.50  3.60  0.00
+assign (resid  16 and name HB1   )(resid  16 and name HG1   )  4.11  2.21  0.00
+assign (resid  16 and name HB1   )(resid  16 and name HG2   )  3.52  1.62  0.00
+!assign (resid  16 and name HB2   )(resid  16 and name HG1   )  3.30  1.40  0.00
+!assign (resid  16 and name HB2   )(resid  16 and name HG2   )  3.80  1.40  0.00
+assign (resid  16 and name HG1   )(resid  16 and name HG2   )  2.43  0.53  0.00
+! total in this range:     96
+! range |i-j| =     1
+assign (resid   3 and name HN    )(resid   4 and name HN    )  2.99  1.09  0.00
+assign (resid   3 and name HA    )(resid   4 and name HN    )  3.36  1.46  0.00
+assign (resid   3 and name HB1   )(resid   4 and name HN    )  4.17  2.27  0.00
+assign (resid   3 and name HB2   )(resid   4 and name HN    )  3.86  1.96  0.00
+assign (resid   5 and name HN    )(resid   6 and name HN    )  2.99  1.09  0.00
+assign (resid   5 and name HA1   )(resid   6 and name HN    )  3.89  1.99  0.00
+assign (resid   5 and name HA2   )(resid   6 and name HN    )  3.61  1.71  0.00
+assign (resid   6 and name HN    )(resid   7 and name HN    )  2.93  1.03  0.00
+assign (resid   6 and name HA    )(resid   7 and name HN    )  4.66  2.76  0.00
+assign (resid   7 and name HN    )(resid   8 and name HN    )  3.02  1.12  0.00
+assign (resid   7 and name HA1   )(resid   8 and name HN    )  3.89  1.99  0.00
+assign (resid   7 and name HA2   )(resid   8 and name HN    )  3.86  1.96  0.00
+assign (resid   8 and name HA    )(resid   9 and name HN    )  4.45  2.55  0.00
+assign (resid   8 and name HB1   )(resid   9 and name HN    )  3.95  2.05  0.00
+assign (resid   8 and name HB2   )(resid   9 and name HN    )  4.72  2.82  0.00
+assign (resid   9 and name HD*   )(resid  10 and name HN    )  5.35  3.45  0.00
+assign (resid  10 and name HA    )(resid  11 and name HN    )  3.02  1.12  0.00
+assign (resid  10 and name HB1   )(resid  11 and name HN    )  3.14  1.24  0.00
+assign (resid  10 and name HB2   )(resid  11 and name HN    )  4.11  2.21  0.00
+assign (resid  11 and name HN    )(resid  12 and name HN    )  3.55  1.65  0.00
+assign (resid  11 and name HB*   )(resid  12 and name HN    )  4.76  2.86  0.00
+assign (resid  12 and name HN    )(resid  13 and name HN    )  3.21  1.31  0.00
+assign (resid  12 and name HA    )(resid  13 and name HN    )  3.64  1.74  0.00
+assign (resid  12 and name HB*   )(resid  13 and name HN    )  4.82  2.92  0.00
+assign (resid  13 and name HN    )(resid  14 and name HN    )  3.11  1.21  0.00
+assign (resid  13 and name HB2   )(resid  14 and name HN    )  3.86  1.96  0.00
+assign (resid  13 and name HG1   )(resid  14 and name HN    )  5.50  3.60  0.00
+assign (resid  14 and name HN    )(resid  15 and name HN    )  3.24  1.34  0.00
+assign (resid  14 and name HA    )(resid  15 and name HN    )  3.55  1.65  0.00
+assign (resid  15 and name HN    )(resid  16 and name HN    )  3.24  1.34  0.00
+assign (resid  15 and name HA    )(resid  16 and name HN    )  3.76  1.86  0.00
+assign (resid  15 and name HB*   )(resid  16 and name HN    )  5.50  3.60  0.00
+! total in this range:     32
+! range |i-j| =     2
+assign (resid   6 and name HB1   )(resid   8 and name HD*   )  7.55  5.65  0.00
+!assign (resid  10 and name HB1   )(resid  12 and name HN    )  3.70  1.80  0.00
+! total in this range:      2
+! range |i-j| =     3
+assign (resid   9 and name HG2*  )(resid  12 and name HN    )  6.53  4.63  0.00
+assign (resid  10 and name HN    )(resid  13 and name HN    )  4.48  2.58  0.00
+assign (resid  10 and name HN    )(resid  13 and name HB2   )  3.79  1.89  0.00
+assign (resid  10 and name HN    )(resid  13 and name HG1   )  5.50  3.60  0.00
+assign (resid  11 and name HA    )(resid  14 and name HN    )  3.64  1.74  0.00
+assign (resid  12 and name HA    )(resid  15 and name HN    )  3.86  1.96  0.00
+assign (resid  13 and name HA    )(resid  16 and name HN    )  3.89  1.99  0.00
+! total in this range:      7
+! range |i-j| =     4
+assign (resid   9 and name HG12  )(resid  13 and name HB1   )  4.17  2.27  0.00
+assign (resid   9 and name HD*   )(resid  13 and name HN    )  6.53  4.63  0.00
+assign (resid   9 and name HD*   )(resid  13 and name HB1   )  4.42  2.52  0.00
+assign (resid   9 and name HD*   )(resid  13 and name HB2   )  4.42  2.52  0.00
+assign (resid   9 and name HD*   )(resid  13 and name HG2   )  4.76  2.86  0.00
+! total in this range:      5
+! range |i-j| =     5
+assign (resid   9 and name HD*   )(resid  14 and name HN    )  4.80  2.92  0.00
+assign (resid   9 and name HD*   )(resid  14 and name HA    )  4.50  2.55  0.00
+assign (resid   9 and name HD*   )(resid  14 and name HB*   )  6.07  4.17  0.00
+! total in this range:      3
+! range |i-j| =     7
+assign (resid   2 and name HN    )(resid   9 and name HG2*  )  5.50  3.60  0.00
+assign (resid   2 and name HN    )(resid   9 and name HG12  )  5.50  3.60  0.00
+! total in this range:      2
+! range |i-j| =    11
+!assign (resid   5 and name HN    )(resid  16 and name HA    )  3.73  1.83  0.00
+! total in this range:      1
+! total constraints:      148
+assign (resid   1 and name LA1   )(resid   2 and name OD2   )  2.28  0.13  0.13
+assign (resid   1 and name LA1   )(resid   6 and name OD1   )  2.26  0.13  0.13
+assign (resid   1 and name LA1   )(resid   8 and name O     )  2.32  0.13  0.13
+assign (resid   1 and name LA1   )(resid  10 and name OG    )  4.96  0.13  0.13
+assign (resid   1 and name LA1   )(resid  13 and name OE1   )  2.22  0.13  0.13
+assign (resid   1 and name LA1   )(resid  13 and name OE2   )  2.36  0.13  0.13
+set echo=true end
+set wrnlev=5 end
+
+
