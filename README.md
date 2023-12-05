@@ -1,3 +1,3 @@
 # PyMol
 
-Script for PyMol protein visualization 
+Scripts for PyMol protein visualization 
